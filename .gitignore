@@ -1,0 +1,14 @@
+# Dossiers de compilation (générés automatiquement, ne jamais les versionner)
+build/
+out/
+
+# Fichiers propres aux éditeurs
+.vs/
+.vscode/
+.idea/
+cmake-build-*/
+CMakeSettings.json
+
+# Système
+.DS_Store
+Thumbs.db
