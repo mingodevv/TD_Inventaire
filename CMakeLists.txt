@@ -15,6 +15,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # ---------------------------------------------------------------------------
 add_executable(${PROJECT_NAME}
     src/main.cpp
+    src/Item.h
+    src/Item.cpp
+    src/Inventory.h 
+    src/Inventory.cpp 
 )
 
 # Permet d'écrire #include "Example.h" depuis n'importe quel fichier de src/.
